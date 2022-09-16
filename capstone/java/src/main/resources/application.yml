@@ -1,0 +1,15 @@
+#spring:
+#  datasource:
+#    username: postgres
+#    password: 0postgres0
+#    driver-class-name: org.postgresql.Driver
+#    type: org.apache.tomcat.jdbc.pool.DataSource
+#    url: jdbc:postgresql://localhost:5432/MovieDB
+#
+#server:
+#  port=9090:
+spring:
+  servlet:
+    multipart:
+      max-file-size: 50MB
+      max-request-size: 100MB
